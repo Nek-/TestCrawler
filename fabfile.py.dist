@@ -3,7 +3,7 @@ from fabric_aws import *
 
 env.user='ubuntu'
 
-@autoscaling_group('us-east-1', 'asg-name')
+@autoscaling_group('us-east-1', 'maxime-asg')
 @task
 def deploy():
     sudo("cd /var/www/html/TestCrawler && git pull")
