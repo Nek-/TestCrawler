@@ -1,0 +1,11 @@
+from fabric.api import *
+from fabric_aws import *
+
+env.user='ubuntu'
+env.key_filename = ['your-key.pem'];
+
+@autoscaling_group('us-east-1', 'asg-name')
+@task
+def deploy():
+    sudo("cd /var/www/html/TestCrawler && git pull")
+    sudo("composer install")
