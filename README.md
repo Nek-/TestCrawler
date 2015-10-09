@@ -1,6 +1,7 @@
 [![Build Status](https://travis-ci.org/Nek-/TestCrawler.svg?branch=master)](https://travis-ci.org/Nek-/TestCrawler)
 ![Awesomeness](https://img.shields.io/badge/awesomeness-sucess-brightgreen.svg)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Nek-/TestCrawler/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Nek-/TestCrawler/?branch=master)
+[![Join the chat at https://gitter.im/Nek-/TestCrawler](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Nek-/TestCrawler?utm_source=badge&utm_medium=badge&utm_content=badge)
 
 ![Deal with it](http://www.thepostturtle.com/wp-content/uploads/2015/02/Obama-Deal-with-It.jpg)
 
