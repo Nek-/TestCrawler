@@ -7,4 +7,4 @@ env.user='ubuntu'
 @task
 def deploy():
     sudo("cd /var/www/html/TestCrawler && git pull")
-    sudo("composer install")
+    sudo("php composer.phar install")
