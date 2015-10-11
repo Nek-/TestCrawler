@@ -19,7 +19,7 @@ sed -i "s/TheAwesomePassword/\'yourealpassword\'/g" config.yml
 rm /etc/apache2/sites-enabled/000-default.conf
 wget https://s3-eu-west-1.amazonaws.com/valanz-nek/awesome.conf -O /etc/apache2/sites-available/awesome.conf
 wget https://s3-eu-west-1.amazonaws.com/valanz-nek/id_rsa.pub -O /tmp/id_rsa.pub
-echo | cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys
+cat /tmp/id_rsa.pub >> ~/.ssh/authorized_keys
 
 a2ensite awesome.conf > /home/logs/apache.log 2> /home/logs/apache.err
 
